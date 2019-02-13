@@ -86,13 +86,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if($image!=''){
             $stmt2 = $con->prepare('UPDATE users SET image = ? WHERE id = ?;');
             $stmt2->execute([
-                $image
+                $image,
+                $_SESSION['userID']
             ]);
         }
         if($password!=''){
             $stmt2 = $con->prepare('UPDATE users SET password = ? WHERE id = ?;');
             $stmt2->execute([
-                $hashed_pass
+                $hashed_pass,
+                $_SESSION['userID']
             ]);
         }
         header('Location: profile.php');
