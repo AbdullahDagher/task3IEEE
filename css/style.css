@@ -1,0 +1,224 @@
+
+@font-face{
+    font-family : colossalis ;
+    src : url('Colossalis Bold.ttf');
+}
+
+body {font-family: "Trebuchet MS" , Tahoma , Arial , sans-serif;
+background-color: #ddd;}
+* {box-sizing: border-box}
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+
+/********** NAV***********/
+.main-nav
+{
+    background-color: #0397F6;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size: x-large;
+    border-radius: 10px;
+
+}
+
+/******TABS********/
+.tabs .butt{
+    height: 20%;
+}
+.tabs .butt button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #1280CA;
+    color: #ffffff;
+    margin-bottom: 0;
+
+}
+.tabs .butt button:hover{
+background-color: white;
+    color: black;
+}
+.container{
+display: none;
+background: #fff;
+}
+h3{
+    float: left;
+    margin-left: 20px;
+    color: white;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-family: colossalis , Impact , sans-serif;
+}
+
+form{
+background-color: white;
+padding: 20px;
+padding-top: 0px}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #0296F9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:2;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+ .signupbtn {
+
+    width: 100%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and  (min-width: 768px) and (max-width: 990px) {
+     .signupbtn {
+        width: 100%;
+    }
+    .main-nav {
+        width: 157%;
+        margin-left: -100px;
+        margin-top: 105px;
+    }
+    h3 {
+        font-size: smaller;
+    }
+    .butt{
+        width: 560px;
+    }
+    .container {
+        padding: 21px;
+        width: 554px;
+
+    }
+
+
+}
+@media screen and (min-width: 991px)and (max-width: 1200px)
+{
+    .main {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
+    .main-nav{
+        width: 69%;
+        margin-left: 125px;
+        margin-top: 90px;
+    }
+    body{
+        margin-top: 133px;
+        width: 100%;
+        margin-left: 5px;
+    }
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h3 {
+        font-size: larger;
+    }
+    .main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .tabs .butt button {
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 20px;
+        font-family: sans-serif;
+        font-size: 18px;
+        background-color: #1280CA;
+        color: #ffffff;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+}
+
+.password{
+    position: relative;
+}
+.password i{
+    position: absolute;
+    right: 10px;
+    top: 27px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#errors{
+    background: #fff;
+    padding: 10px;
+    clear: both;
+}
+
+.loginClass#signup{
+    display: none;
+}
+
+.loginClass#login{
+    display: block;
+}

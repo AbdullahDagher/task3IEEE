@@ -1,0 +1,266 @@
+/****************prof********/
+@font-face{
+    font-family : colossalis ;
+    src : url('Colossalis Bold.ttf');
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS" , Tahoma , Arial , sans-serif;
+}
+
+.ma_con{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: #0397F6;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 65px;
+    font-size: x-large;
+    border-radius: 10px;
+}
+h3{
+    float: left;
+    margin-left: 20px;
+    color: white;
+    padding-right: 30px;
+    margin-top: 20px;
+    font-family: colossalis , Impact , sans-serif;
+}
+#nam{
+    font-family: "Trebuchet MS" , Tahoma , Arial , sans-serif;
+}
+.link{
+    color: white;
+    font-size: 20px;
+    float: right;
+    border: 1px solid #ccc;
+    padding:10px;
+    text-decoration: none;
+    width: 100px;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -o-transition: background-color .5s;
+}
+.link:hover{
+    background-color: darkturquoise ;
+}
+#rie{
+    margin-right: 158px;
+    margin-top: 9px;
+}
+#lef{
+    margin-top: 9px;
+    margin-right: 35px;
+    width: 101px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 75px;
+    top: 11px;
+}
+.head h3{
+    position: relative;
+    padding-top: 0px;
+    top: -5px;
+    left: 10px;
+}
+.cont{
+    background-color: white;
+    border-radius: 5px;
+    z-index: 5;
+    position: absolute;
+    width: 98.8%;
+
+}
+.left{
+    float: left;
+    width: 635px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.imp{
+    width: 250px;
+    border-radius: 18%;
+    margin-top: 40px;
+    margin-left: 124px;
+}
+.fa-facebook-square {
+    font-size: 50px;
+    margin-left: 150px;
+
+}
+.fa-twitter-square {
+    font-size: 50px;
+}
+.fa-google-plus-square {
+    font-size: 50px;
+}
+.social{
+    color: #a1a1a1;
+    font-size: 2.5em;
+    margin-right: 30px;
+    text-decoration: none;
+
+}
+.social i{
+    transition: color .5s;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+}
+.social:hover i.fa-facebook-square
+{
+    color: #3b5998 ;
+}
+.social:hover i.fa-twitter-square
+{
+    color: #4099ff;
+}
+.social:hover i.fa-google-plus-square
+{
+    color: #d34836;
+}
+
+.left h3{
+    color: black;
+    font-size: larger;
+    margin-top: 43px;
+    margin-left: 0;
+}
+.nickname{
+    margin-top: 66px;
+    margin-left: -69px;
+    padding-top: 0px;
+    display: inline-block;
+    font-size: small;
+    color: #10A8FE;
+}
+p i{
+    padding-right: 4px;
+}
+#line{
+    width: 66px;
+    border: 2px solid;
+    color: #10A8FE;
+    margin-left: -1px;
+    margin-top: -11px;
+}
+.info{
+    font-size: smaller;
+    color: gray;
+    margin-bottom: 35px;
+    padding-top: 5px;
+}
+.din p{
+    margin-left: 144px;
+    margin-top: -20px;
+}
+.col {
+    color: #1280CA;
+}
+
+.ico{
+    position: absolute;
+    right: 19px;
+    top: 21px;
+    color: #3B5A15;
+    background-color: #409AFE;
+    border: none;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.w3-theme-d2 {
+    color: #fff !important;
+    background-color: #00766a !important;
+    width: 20px;
+}
+
+.menu{
+    float: right;
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+    color: #1280CA ;
+}
+nav{
+    padding-bottom: 27px;
+    display: none;
+
+}
+#ed2{
+    margin-right: -96px;
+    margin-top: 6px;
+    width: 106px;
+}
+
+
+
+
+/******************************************/
+
+@media screen and (max-width: 767px)
+{
+    .ico{
+        display: block;
+    }
+    .left {
+        float: left;
+        width: 635px;
+        padding: 10px;
+        margin: 0px;
+        margin-left: -67px;
+    }
+    #lclass{
+        margin-left: 92px;
+        margin-top: 100px;
+    }
+    .link{
+        display: none;
+    }
+}
+
+@media screen and  (min-width: 768px) and (max-width: 990px)
+{
+    .left {
+        float: left;
+        width: 635px;
+        padding: 10px;
+        margin: 0px;
+        margin-left: 133px;
+    }
+    #lclass{
+        margin-left: 310px;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 991px)and (max-width: 1200px)
+{
+    .left {
+        float: left;
+        width: 635px;
+        padding: 10px;
+        margin: 0px;
+        margin-left: 250px;
+    }
+    #lclass{
+        margin-left: 444px;
+        margin-top: 100px;
+    }
+}
+
