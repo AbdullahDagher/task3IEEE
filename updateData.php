@@ -46,7 +46,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     }
 
     if($birthday !=''){
-        if(!preg_match('/[0-9]{1,2}[/-]{1}[0-9]{1,2}[/-]{1}[0-9]{4}/', $birthday ))
+        if(!preg_match('/[0-9]{1,2}[\/-]{1}[0-9]{1,2}[\/-]{1}[0-9]{4}/', $birthday))
             $error_msg[] = 'Enter valid birthday';
     }
 
